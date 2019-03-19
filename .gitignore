@@ -1,2 +1,4 @@
 venv/
 env_garantbot/
+.idea/workspace.xml
+__pycache__/
