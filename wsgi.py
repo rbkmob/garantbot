@@ -12,4 +12,5 @@ cert = dir_path + '/cert.pem'
 context = (cert, key)
 
 if __name__ == "__main__":
+   #app.run(host='139.162.191.24', ssl_context=context)
     app.run(ssl_context=context)
